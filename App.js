@@ -13,7 +13,6 @@ export default class extends React.Component {
     isLoading: true,
   };
   getWeather = async (latitude, longitude) => {
-    console.log(weather);
     const {
       data: {
         main: { temp },
